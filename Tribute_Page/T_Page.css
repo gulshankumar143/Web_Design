@@ -1,0 +1,65 @@
+body{
+    text-align: center;   
+}
+#main{
+    background-color:#f5f4eb;
+    border-radius: 2%;
+    padding: 3%;
+    padding-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+#image{
+    justify-content: center;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-image-width: auto;
+    transform: translateY(-35px);
+}
+li{
+    text-align: start;
+    padding-bottom: 3%;
+    
+}
+#list{
+    padding-left: 10%;
+    
+}
+#timeline{
+    padding: 10%;
+}
+.header{
+    background-color: white;
+    padding:.5% .5% 0% .5%;
+    border-radius: 3%;
+    
+}
+#tribute-info{
+    transform: translateY(-25px);
+}
+#title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+    padding-bottom: 1%;
+}
+#img-caption{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    background-color: #f5f4eb;
+    transform: translateY(-60px);
+}
+.quote{
+    padding-right: 15%;
+
+}
+.q-name{
+    padding-right: 50%;
+}
+h3{
+    padding-bottom: 2%;
+}
+footer{
+    padding-bottom: 3%;
+}
