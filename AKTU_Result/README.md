@@ -1,1 +1,1 @@
-
+## AKTU_RESULT
