@@ -3,9 +3,9 @@ var icon = document.getElementById("icon");
 icon.onclick = function () {
     if (mysong.paused) {
         mysong.play();
-        icon.src = "pause.png";
+        icon.src = "https://raw.githubusercontent.com/gulshankumar143/Web_Design/main/Images_Used/pause.png";
     } else {
         mysong.pause();
-        icon.src = "play.png"
+        icon.src = "https://raw.githubusercontent.com/gulshankumar143/Web_Design/main/Images_Used/play.png"
     }
 }
