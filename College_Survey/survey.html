@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <form class="center">
+        <h1>COLLEGE SURVEY</h1>
+        <div class="details">
+            <label>College Name</label>
+            <input type="text" name="college" id="cname"><br><br>
+            <label>Student Name</label>
+            <div class="between">
+                <input type="text" name="stuname" placeholder="First Name" class="height">
+                <input type="text" name="stuname" placeholder="Last Name" class="height" id="widthbw">
+            </div>
+            <br><br>
+            <label>Date</label>
+            <input type="date" class="height" id="space"><br><br>
+            <label>Select your course</label><br><br>
+            <select>
+                <option value="Select">Please Select</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="B.Pharma">B.Pharma</option>
+                <option value="M.Pharma">M.Pharma</option>
+                <option value="M.B.A.">M.B.A.</option>
+            </select><br><br>
+            <label>Which year are you studying in?</label><br><br>
+            <select>
+                <option value="Please Select">Please Select</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+            </select>
+            <hr>
+            <h4 class="heading">Please rate the following aspects of your college:</h4>
+            <p>(Management and Curriculum for the term)</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th>Very Disappointed</th>
+                        <th>Disappointed</th>
+                        <th>Neutral</th>
+                        <th>Satisfied</th>
+                        <th>Very Satisfied</th>
+                        <th>No Comments</th>
+                    </tr>
+                    <tr>
+                        <th><label>Management system of your college.</label></th>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>I was academically prepared for the classes.</label></th>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                        <td><input type="radio" name="prepared" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The class sizes were appropriate.</label></th>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                        <td><input type="radio" name="appropriate" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The classes started and ended on time.</label></th>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                        <td><input type="radio" name="started" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>Teacher's knowledge on their specified subject.</label></th>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                        <td><input type="radio" name="knowledge" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The class description.</label></th>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                        <td><input type="radio" name="accurately" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>The overall quality of the classes was excellent.</label></th>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                        <td><input type="radio" name="excellent" class="size"></td>
+                    </tr>
+                    <tr>
+                        <th><label>I would recommend this college to other students.</label></th>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                        <td><input type="radio" name="students" class="size"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <label>
+            <p>How likely are you to recommend our college to a friend or colleague?</p>
+            <input type="radio" name="helpful" class="size">&nbsp<label>Very likely</label><br><br>
+            <input type="radio" name="helpful" class="size">&nbsp<label>Somewhat likely</label><br><br>
+            <input type="radio" name="helpful" class="size">&nbsp<label>Unsure</label><br><br>
+            <input type="radio" name="helpful" class="size">&nbsp<label>Not very likely</label><br><br>
+            <input type="radio" name="helpful" class="size">&nbsp<label>Not likely</label><br><br>
+            <p>If not, why?</p>
+            <textarea name="Comments" id="comment"></textarea><br><br>
+            <p>What could we do to our management to increase your level of satisfaction?</p>
+            <textarea name="Comments" id="comment"></textarea>
+            <hr>
+            <div class="botton">
+                <botton>Submit</botton>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
