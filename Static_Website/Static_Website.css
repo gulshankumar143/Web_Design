@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin: opx;
+    padding: opx;
+}
+.header {
+    width: 100%;
+    height: 250%;
+    background-color: lightslategray;
+    color: ghostwhite;
+}
+.header h1 {
+    background-image: url(https://s01.sgp1.digitaloceanspaces.com/large/878727-gykhnjevoo-1526050414.jpg);
+    text-align: center;
+    font-size: 50px;
+    line-height: 150px;
+}
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(218, 206, 222);
+    text-align: center;
+}
+.menu ul {
+    list-style-type: none;
+    line-height: 50px;
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    color: rgb(14, 1, 6);
+    background-color: rgb(133, 184, 115);
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.menu ul li a:visited {
+    color: white;
+}
+.menu ul li a:hover {
+    color: white;
+    background-color: burlywood;
+}
+.content1 {
+    font-size: 18px;
+    background-color: whitesmoke;
+    color: black;
+    width: 30%;
+    height: 310px;
+    float: left;
+}
+.content1 {
+    padding: 30px;
+}
+
+.content2 {
+    font-size: 19px;
+    background-color: antiquewhite;
+    color: black;
+    height: 370px;
+}
+footer {
+    background-color: black;
+}
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+.fmain {
+    margin: 30px 0;
+}
+.fmain ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.fmain ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.fmain ul li a:hover {
+    opacity: 1;
+}
+.fBottom {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+.fBottom p {
+    color: white;
+}
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: opx 5px;
+}
+@media (max-width: 700px) {
+    .fmain ul {
+        flex-direction: column;
+    }
+    .fmain ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
